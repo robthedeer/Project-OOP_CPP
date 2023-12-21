@@ -1,14 +1,35 @@
-//
-//  main.cpp
-//  Practise_C++
-//
-//  Created by Sofia on 20.12.2023.
-//
+#include<iostream>
+#include"calc.hpp"
+#include"calc.cpp"
 
-#include <iostream>
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+
+
+int main()
+{
+    //Circle object
+    double radius;
+    cout<<"Enter radius:";
+    cin>>radius;
+
+    Circle circle(radius);
+
+    cout<<"Area of the circle: "<<circle.circle_Area(radius);
+    cout<<"\n";
+    
+    //Rectangle object
+    float l,w;
+    cout<<"Enter length:";
+    cin>>l;
+    cout<<"Enter width:";
+    cin>>w;
+    
+    Rectangle rect(l,w);
+    
+    cout<<"Area of Rectangle ="<<rect.rect_Area(l, w)<<"\n";
+    
+
+
     return 0;
 }

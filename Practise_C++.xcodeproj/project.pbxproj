@@ -25,6 +25,8 @@
 /* Begin PBXFileReference section */
 		C3B31C522B336F8A005E49F7 /* Practise_C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Practise_C++"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B31C552B336F8A005E49F7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C3B31C5C2B337707005E49F7 /* calc.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = calc.hpp; sourceTree = "<group>"; };
+		C3B31C602B337840005E49F7 /* calc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = calc.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,8 @@
 			isa = PBXGroup;
 			children = (
 				C3B31C552B336F8A005E49F7 /* main.cpp */,
+				C3B31C5C2B337707005E49F7 /* calc.hpp */,
+				C3B31C602B337840005E49F7 /* calc.cpp */,
 			);
 			path = "Practise_C++";
 			sourceTree = "<group>";
@@ -238,7 +242,13 @@
 		C3B31C5A2B336F8A005E49F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = NO;
+				CLANG_ANALYZER_USE_AFTER_MOVE = NO;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_NO_COMMON_BLOCKS = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -246,7 +256,13 @@
 		C3B31C5B2B336F8A005E49F7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ADDRESS_SANITIZER_CONTAINER_OVERFLOW = NO;
+				CLANG_ANALYZER_USE_AFTER_MOVE = NO;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_NO_COMMON_BLOCKS = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
