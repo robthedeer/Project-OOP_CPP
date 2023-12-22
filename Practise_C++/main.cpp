@@ -14,5 +14,8 @@ int main()
     //Area of rectangle
     calcAreaofRect();
     
+    setPersonalInfo();
+   
+    
     return 0;
 }

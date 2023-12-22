@@ -19,7 +19,7 @@ float l,w;
 //Object for Rectangle
 Rectangle rect(l,w);
 
-
+Employee empl;
 void calcAreaOfcircle()
 {
     
@@ -45,5 +45,32 @@ void calcAreaofRect()
     cin>>w;
     
     cout<<"Area of Rectangle ="<<rect.rect_Area(l, w)<<"\n";
+    
+}
+
+void setPersonalInfo()
+{
+    string name,surname,ID;
+    int age;
+    cout<<"Enter your name:";
+    cin>>name;
+    cout<<"Enter your surname:";
+    cin>>surname;
+    cout<<"Enter your Age:";
+    cin>>age;
+    cout<<"Enter your ID:";
+    cin>>ID;
+    empl.setName(name);
+    empl.setSurname(surname);
+    empl.setAge(age);
+    empl.setID(ID);
+    
+    
+    cout<<"Name :"<<empl.getName();
+    cout<<"\nSurname:"<<empl.getSurname();
+    cout<<"\nAge"<<empl.getAge();
+    cout<<"\nID no."<<empl.getID()<<"\n";
+    
+    
     
 }

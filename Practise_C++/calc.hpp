@@ -1,6 +1,8 @@
 #pragma once
+#include <string>
+#include <iostream>
 
-
+using namespace std;
 
 class Circle
 {
@@ -22,7 +24,7 @@ class Circle
 
 };
 
-
+//CLASS FOR REACTANGLE OPERATIONS
 class Rectangle
 {
 private:
@@ -37,4 +39,26 @@ public:
     float rect_Area(float l,float w);
     
 
+};
+
+//CLASS FOR EMPOYEE
+class Employee
+{
+private:
+    string name;
+    string surname;
+    int age;
+    string ID;
+public:
+    //Set Setter functions
+    void setName(string & n) {name=n;}
+    void setSurname(string &s) {surname=s;}
+    void setAge(int a){age =a;}
+    void setID(string &id){ID=id;}
+   
+    //Set Getter Functions
+    string getName();
+    string getSurname();
+    int getAge();
+    string getID();
 };
