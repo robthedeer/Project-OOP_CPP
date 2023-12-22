@@ -1,0 +1,33 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "cmake",
+      "request": "launch",
+      "name": "CMake: Configure project",
+      "cmakeDebugType": "configure",
+      "clean": false,
+      "configureAll": false
+    },
+    {
+      "name": "(lldb) Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "enter program name, for example ${workspaceFolder}/a.out",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${fileDirname}",
+      "environment": [],
+      "externalConsole": false,
+      "MIMode": "lldb"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/sofia/Desktop/Rob C++ Dev/Practise_C++/Practise_C++",
+      "program": "/Users/sofia/Desktop/Rob C++ Dev/Practise_C++/Practise_C++/build/Debug/outDebug"
+    }
+  ]
+}

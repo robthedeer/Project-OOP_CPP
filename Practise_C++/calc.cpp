@@ -8,9 +8,14 @@ double Circle ::circle_Area(double radius)
     
 }
 
+double Circle::circle_Circum(double radius)
+{
+    return 2*PI*radius;
+}
+
 
 //Rectangle operations
 float Rectangle::rect_Area(float l, float w)
 {
-    return  l*w;
+    return l*w;
 }

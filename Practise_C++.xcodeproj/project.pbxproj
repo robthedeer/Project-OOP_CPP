@@ -23,6 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C32848172B35040200DEF5FA /* methods.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = methods.cpp; sourceTree = "<group>"; };
 		C3B31C522B336F8A005E49F7 /* Practise_C++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Practise_C++"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B31C552B336F8A005E49F7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		C3B31C5C2B337707005E49F7 /* calc.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = calc.hpp; sourceTree = "<group>"; };
@@ -62,6 +63,7 @@
 				C3B31C552B336F8A005E49F7 /* main.cpp */,
 				C3B31C5C2B337707005E49F7 /* calc.hpp */,
 				C3B31C602B337840005E49F7 /* calc.cpp */,
+				C32848172B35040200DEF5FA /* methods.cpp */,
 			);
 			path = "Practise_C++";
 			sourceTree = "<group>";

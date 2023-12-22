@@ -16,6 +16,8 @@ class Circle
 
     //Member functions
     double circle_Area(double radius);
+    double circle_Circum(double radius);
+    
 
 
 };
